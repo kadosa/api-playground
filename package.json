@@ -1,0 +1,32 @@
+{
+  "name": "kadosa-api-playground",
+  "version": "0.0.1",
+  "description": "Playground for experimenting with open API services.",
+  "main": "server.js",
+  "dependencies": {
+    "request": "^2.79.0",
+    "whatwg-fetch": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "express": "^4.14.0",
+    "fetch": "^1.1.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^2.2.0-rc.4",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js --ignore app/"
+  },
+  "author": "",
+  "license": "ISC"
+}
